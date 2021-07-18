@@ -41,6 +41,10 @@ The photographs for the DRIVE database were obtained from a diabetic retinopathy
 The set of 40 images has been divided into a training and a test set, both containing 20 images.
 [DRIVE Dataset](https://drive.grand-challenge.org/)
 
+![21_training](https://user-images.githubusercontent.com/78692554/126083644-9e7c866c-62fe-4000-bbe4-b11ba82e554b.jpg)
+![21_training](https://user-images.githubusercontent.com/78692554/126083650-e93ebf41-5ca8-433f-8671-cee14cfd75c8.jpg)
+
+
 # Inplementaion
 
 The DRIVE dataset has 20 Trainng samples whch is less than that is required for Training an Unet, hence initially augmentation of the dataset is carried out  wich creates a total of 100 images including the original one of size 512 x 512
@@ -54,5 +58,5 @@ This data is feeded for Unet model for training and further testing, the details
 **Jaccard**: 0.6745 - **F1**: 0.8056 - **Recall**: 0.8372 - **Precision**: 0.7763 - **Acc**: 0.9641
 FPS:  8.2989461854128
 
-Further **Morphological Closing** is done on the output which increased the **F1 score** by about **1.5 - 2%** also **Accuracy** by **2** Resulting to **98.4%** 
+### Further **Morphological Closing** is done on the output which increased the **F1 score** by about **1.5 - 2%** also **Accuracy** by **2** Resulting to **98.4%** 
 
