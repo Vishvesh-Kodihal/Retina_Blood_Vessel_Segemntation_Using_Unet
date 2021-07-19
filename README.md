@@ -20,9 +20,10 @@ Readme.md
 
 ##  Folders
 
-Results
-New_data - contains augmented Test Train Dataset
-files - saves the checkpoint 
+1) Results
+2) files - saves the checkpoint
+3) Train and Test data needs to be downloaded from given link
+ 
 
 ## Unet
 
