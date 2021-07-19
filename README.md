@@ -47,9 +47,10 @@ The set of 40 images has been divided into a training and a test set, both conta
 
 # Inplementaion
 
-The DRIVE dataset has 20 Trainng samples whch is less than that is required for Training an Unet, hence initially augmentation of the dataset is carried out  wich creates a total of 100 images including the original one of size 512 x 512
+The DRIVE dataset has 20 Training samples which is less than that is required for Training an Unet, hence initially augmentation of the dataset is carried out  which creates a total of 100 images including the original one of size 512 x 512
 
 This data is feeded for Unet model for training and further testing, the details regarding model can be  found in the IPYNB file
+one output image is present in the results_1 folder
 
 # Results
 ![Copy of 01_test_0](https://user-images.githubusercontent.com/78692554/126083351-77f2b46c-d820-4393-bcf6-2f86ab3d3b2f.png)
